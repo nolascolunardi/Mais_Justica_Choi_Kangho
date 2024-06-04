@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Palanquin:wght@200&family=Passion+One&family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Palanquin:wght@300&family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif, Poppins;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+}
+
+/*--- nav bar ---*/
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    padding: 0vw 10vw;
+    z-index: 99;
+}
+.cntr-nav {
+    position: absolute;
+    left: 900px;
+    display: flex;
+    gap: 4vw;
+}
+nav a, i{
+    font-family: poppins;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #fff;
+}
+nav i{
+    font-size: 1.5vw;
+}
+.logo{
+    font-size: 18px;
+}
+
+/*-- home --*/
+.one{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 100vh;
+    padding: 14vw 10vw;
+    background:#212529;
+    color: #fff;
+}
+.foto {
+    position: absolute;
+    align-content: end;
+    left: 900px;
+    bottom: 150px;
+}
+.conteudo1{
+    font-family: Poppins;
+    font-size: 18px;
+}
+.titulo{
+    font-family: poppins;
+    font-size: 35px;
+    color: #FF4343;
+}
+.titulo2{
+    font-family: poppins;
+    font-size: 25px;
+    color: #Fff;
+}
+
+/*-- botao home --*/
+form {
+    background-color: #fff;
+    height: 45px;
+    padding: 0px;
+    border-radius: 30px; 
+}
+.form_email{
+    width: 263.25px;
+    height: 45px;
+    border-color: none;
+}
+.btn-danger{
+    border-color: #801717;
+    background-color: #801717;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+/*-- Sobre mim--*/
+.two{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    padding: 1vw 10vw;
+    background:#212529;
+    color: #fff;
+}
+.sobre_card{
+    position: absolute;
+    align-items: center;
+    background-color: #fff;
+    width: 1000px;
+    height: 610px;
+    border-radius: 50px;
+}
+/*-- texto do sobre mim*/
+.sobre_texto{
+    position: absolute;
+    text-align: left;
+    color: #000000;
+    padding: 7vw 5vw;
+}
+.sobre_titulo{
+    font-family: poppins;
+    font-size: 35px;
+    padding: 10vw 0vw;
+    color: #FF4343;
+}
+.foto_sobre{
+    position: absolute;
+    width: 380px;
+    right: 30px;
+    padding: 5vw 1vw;
+}
+.t1{
+    font-family: poppins;
+    font-size: 18px;
+    max-width: 50%;
+    padding: 2vw 0vw;
+}
+.t2{
+    font-family: poppins;
+    font-size: 18px;
+    max-width: 50%;
+    padding: 0vw 0vw;
+}
+.botao_info{
+    padding: 2vw 0vw;
+}
+.btn-danger{
+    font-family: poppins;
+    font-size: 20px;
+}
+
+
+/*-- Informações --*/
+.three{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 110vh;
+    padding: 6vw 10vw;
+    background:#212529;
+    color: #fff;
+}
+.conteudo_inf{
+    display: flex;
+    justify-content: center;
+}
+.text_inf{
+    display: inline;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+}
+.inf_texto{
+    font-family: poppins;
+    font-size: 20px;    
+}
+.inf_titulo{
+    font-family: poppins;
+    color: #FF4343;
+}
+/* informações - cards */
+.wrapper {
+    width: 100%;
+    height: -webkit-fill-available;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw 13vw;
+}
+.container {
+    height: 500px;
+    display: flex;
+    justify-content: start;
+    position: relative;
+    padding: 1vw 1vw;
+}
+.card {
+    font-family: poppins;
+    width: 80px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin:  10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+}
+
+.card > .row {
+    color: rgb(20, 20, 20);
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1vw 0vw;
+}
+.card > .row > .icon {
+    background: #223;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.card > .row > .description {
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+    width: 520px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.description p {
+    font-family: poppins;
+    color: #000000;
+    padding-top: 5px;
+}
+
+.description h4 {
+    text-transform: uppercase;
+}
+input {
+    display: none;
+}
+input:checked + label {
+    width: 600px;
+}
+input:checked + label .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+/* pagina chat bot*/
+.four{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    padding: 1vw 10vw;
+    background:#212529;
+    color: #fff;
+}

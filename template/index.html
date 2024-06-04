@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Choi Kang-Ho</title>
+</head>
+<body>
+    <div id="main">
+        <header>
+            <nav>  
+                <a class="logo"><img src="../static/img/logo.svg" width="45px">Choi Kang-ho</a>
+                <div class="cntr-nav">
+                    <a href="#">Home</a>
+                    <a href="#">Sobre Mim</a>
+                    <a href="#">Informações</a>
+                    <a href="#three">Depoimento</a>
+                </div>
+                <i class="ri-menu-fill"></i>
+            </nav>
+        </header>
+
+        <div class="one">
+            <div class="foto">
+                <img src="../static/img/choi.svg" width="475px" >
+            </div>
+            <div  class="texto_home">
+                <h2 class="titulo2">Seja bem-vindo!</h2><br>
+                <h1 class="titulo"><strong class="titulo">Sou o promotor Choi Kang-ho</strong></h1><br>
+                <p class="conteudo1">Esta página tem como intuito informar sobre as funções e <br>importância de um promotor de  justiça na sociedade civil.</p><br><br>
+                <p class="conteudo1">Cadastre-se para receber o conteúdo informativo <br>semanalmente em seu e-mail.</p><br><br>
+                <label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Digite seu e-mail aqui" >
+                        <button class="btn btn-danger" type="submit" id="button-addon2"><img src="../static/img/enviar.svg" width="20px"></button>
+                    </div>
+                </label>
+                
+            </div>
+        </div>
+
+
+        <div class="two">
+
+            <div class="sobre_card">
+                <img src="../static/img/capa_sobremim.svg"  class="foto_sobre">
+                <div class="sobre_texto">
+                    <h1><strong class="sobre_titulo">Sobre mim</strong></h1>
+                    <p class="t1">Eu atualmente sou promotor de justiça em Seul, Coreia do Sul. Me formei em Direito na Seoul National University. 
+                        Resolvo casos difíceis, e enfrento desafios com determinação.
+                    </p>
+                    <p class="t2">
+                        Conheça um pouco mais sobre a minha história na série “The Good Bad Mother”.
+                    </p><br>
+                    <div class="botao_info">
+                        <button class="btn bnt-large btn-danger" type="submit" id="button-addon2">Clique aqui para saber mais</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="three">
+            <div class="conteudo_inf">
+                <div class="text_inf">
+                    <h1 class="inf_titulo"><strong>Entenda sobre  Promotores de Justiça</strong></h1>
+                    <p class="inf_texto">Clique e aprenda a importância e funções dos promotores de justiça:</p>
+                </div>
+                
+                <div class="wrapper">
+                    <div class="container">
+                        <input type="radio" name="slide" id="c1" checked>
+                        <label for="c1" class="card">
+                            <div class="row">
+                                <div class="icon">1</div>
+                                <div class="description">
+                                    <h4>O que é um promotor:</h4>
+                                    <p>Aqui sera o texto sobre o topico</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c2" >
+                        <label for="c2" class="card">
+                            <div class="row">
+                                <div class="icon">2</div>
+                                <div class="description">
+                                    <h4>Tipos de Promotores</h4>
+                                    <p>Aqui sera o texto sobre o topico</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c3" >
+                        <label for="c3" class="card">
+                            <div class="row">
+                                <div class="icon">3</div>
+                                <div class="description">
+                                    <h4>Papel do Promotor:</h4>
+                                    <p>Aqui sera o texto sobre o topico</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c4" >
+                        <label for="c4" class="card">
+                            <div class="row">
+                                <div class="icon">4</div>
+                                <div class="description">
+                                    <h4>O que é Ministério Público</h4>
+                                    <p>Aqui sera o texto sobre o topico</p>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="four">
+            <div class="conteudo_inf">
+                <div class="text_inf">
+                    <h1 class="inf_titulo"><strong>Chat Bot</strong></h1>
+                    <p class="inf_texto">Caso esteja com dúvidas e necessita de ajuda, pergunte ao Choi Kang-ho atraves do chat abaixo:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
